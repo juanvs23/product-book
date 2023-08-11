@@ -1,0 +1,1 @@
+2023/08/11 14:51:42 [error] 12164#9068: *200 directory index of "F:/user/Local Sites/produ-book/app/public/wp-content/cache/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/cache/ HTTP/1.0", host: "produ-book.local"
