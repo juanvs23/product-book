@@ -58,7 +58,14 @@
 		</nav><!-- #site-navigation -->
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><?php var_dump(get_custom_logo()); ?></a>
+      <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+		<?php 
+		if (get_custom_logo() && get_custom_logo()!='') {
+			echo get_custom_logo();
+	  	}else{
+			echo get_bloginfo( 'name' );
+		}
+	  ?></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
