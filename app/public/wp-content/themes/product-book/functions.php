@@ -185,3 +185,16 @@ require get_template_directory() . '/inc/post-types/post-types.php';
  * Add Taxonomies
  */
 require get_template_directory() . '/inc/taxonomies/taxonomies.php';
+
+/**
+ * Customizer additions.
+ */
+require get_template_directory() . '/inc/filters.php';
+/**
+ * Add Shortcodes
+ */
+require get_template_directory() . '/inc/shortcodes/shortcodes.php';
+/**
+ * Add Widgets
+ */
+require get_template_directory() . '/inc/widget/widgets.php';
