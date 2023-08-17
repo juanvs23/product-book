@@ -11,8 +11,6 @@ get_header();?>
         
     </div>
 </main>
-<aside id="home-aside">
-    <?php get_sidebar(); ?>
-</aside>
+
 <?php
 get_footer();
